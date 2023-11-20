@@ -1,15 +1,25 @@
-<!-- Navbar.html -->
-<nav class="bg-gray-800 text-white p-3 flex justify-between items-center">
-    <!-- Logo o título de la aplicación -->
-    <RouterLink to="/" class="text-xl font-bold">
-        MiApp
-    </RouterLink>
-
-    <!-- Elementos de navegación -->
-    <div class="flex gap-4">
-        <RouterLink to="/" class="hover:bg-gray-700 p-2 rounded">Inicio</RouterLink>
-        <RouterLink to="/about" class="hover:bg-gray-700 p-2 rounded">Quiénes Somos</RouterLink>
-        <RouterLink to="/projects" class="hover:bg-gray-700 p-2 rounded">Proyectos</RouterLink>
-        <RouterLink to="/contact" class="hover:bg-gray-700 p-2 rounded">Contacto</RouterLink>
+<div class="flex flex-col">
+    <!-- Línea Superior con Iconos de Redes Sociales -->
+    <div class="bg-[#009999] p-1 flex justify-end items-center space-x-2">
+      <a href="https://facebook.com" target="_blank">
+        <img src="https://c.animaapp.com/3b9ec0Gn/img/facebook-logo-2@2x.png" alt="Facebook" class="h-10"/>
+      </a>
+      <a href="https://twitter.com" target="_blank">
+        <img src="https://c.animaapp.com/3b9ec0Gn/img/twitter-logo-2@2x.png" alt="Twitter" class="h-10"/>
+      </a>
+      <a href="https://youtube.com" target="_blank">
+        <img src="https://c.animaapp.com/3b9ec0Gn/img/youtube-logo-2@2x.png" alt="Youtube" class="h-10"/>
+      </a>
     </div>
-</nav>
+    <!-- Navbar Principal -->
+    <nav class="bg-white flex items-center justify-between px-[5.25rem]">
+      <img src="https://c.animaapp.com/3b9ec0Gn/img/logo-1-1@2x.png" alt="Logo" class="h-24" />
+      <div class="flex gap-4 text-[#000000]">
+        <RouterLink to="/" class="hover:text-[#009999] p-2">FASE DE INICIO</RouterLink>
+        <RouterLink to="/fase-planificacion" class="hover:text-[#009999] p-2">FASE DE PLANIFICACIÓN</RouterLink>
+        <RouterLink to="/fase-diseno-desarrollo" class="hover:text-[#009999] p-2">FASE DE DISEÑO Y DESARROLLO</RouterLink>
+        <RouterLink to="/fase-control-calidad-implementacion" class="hover:text-[#009999] p-2">FASE DE CONTROL DE CALIDAD E IMPLEMENTACIÓN</RouterLink>
+        <RouterLink to="/fase-cierre" class="hover:text-[#009999] p-2">FASE DE CIERRE</RouterLink>
+      </div>
+    </nav>
+  </div>

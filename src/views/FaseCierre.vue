@@ -35,7 +35,7 @@
 import TitleComponent from '../components/TittleComponent.vue'; // Asegúrate de que la ruta sea correcta
 
 export default {
-    name: 'TermsOfReferenceView',
+    name: 'FaseCierreView',
     components: {
         TitleComponent, // Registra el componente TitleComponent
     },
