@@ -1,18 +1,31 @@
 <template>
     <div class="container mx-auto px-10 py-8 rounded-3xl bg-slate-50">
-        <TitleComponent text="TÉRMINOS DE REFERENCIA" text1="Fase de Inicio / Términos de Referencia" />
+        <TitleComponent text="Fase de Control de Calidad e Implementación"
+            text1="Fase de Control de Calidad e Implementación / Fase de Implementación" />
 
-        <h2 class="text-2xl font-bold text-left text-primary uppercase py-4">Antecedentes y Justificación</h2>
-        <h3 class="text-xl font-light text-left">La Asociación de Concejalas y Alcaldesas de Bolivia (ACOBOL)
-            es una entidad nacional sin fines de lucro, fundada en 1999, que forma parte del Sistema
-            Asociativo Municipal (SAM). Conformada por nueve Asociaciones Departamentales, ACOBOL tiene como
-            objetivo principal promover y posicionar políticamente a las mujeres en el ámbito municipal.
-            Esta entidad representa a sus asociadas, alcaldesas y concejalas, en la defensa de sus derechos
-            e intereses, sin discriminación de raza, cultura, etnia o instrucción. ACOBOL trabaja en
-            fortalecer la gestión hacia la equidad y el desarrollo humano sostenible, respaldando a sus
-            miembros para lograr una participación política equitativa, empoderando a las mujeres y fomentando
-            la incorporación de la perspectiva de género en la planificación y desarrollo municipal, con el fin
-            de contribuir a la construcción de una sociedad equitativa entre hombres y mujeres.
+        <h3 class="text-xl font-light text-left">Para el hosting del portal web de ACOBOL se ha seleccionado un
+            servidor Dell PowerEdge R630 con las siguientes características:
+            <br>
+            - 2 x Intel Xeon E5-2640 V3
+            <br>
+            - 64GB de RAM
+            <br>
+            - Controlador RAID PERC H730
+            <br>
+            - 300GB de almacenamiento
+            <br>
+            El dominio elegido es acobol.org.bo, obtenido a través de ofertas oficiales del gobierno boliviano con un costo
+            de 280 Bs. al año.
+            <br>
+
+            El proceso de DNS se llevará a cabo mediante el panel WHM, proporcionado con la compra del dominio .org.bo,
+            enlazando la IP pública del servidor con el nombre de dominio. Se implementará un certificado SSL para asegurar
+            la conexión con los clientes.
+            <br>
+            El despliegue de frontend, backend y base de datos se realizará en el servidor. El backend (Express) y la base
+            de datos (MySQL) serán servidos con sus entornos por defecto. El frontend se desplegará públicamente utilizando
+            el servidor web Nginx para servir archivos estáticos en el puerto 80 de la IP pública, resuelta en el nombre de
+            dominio acobol.org.bo.
         </h3>
         <h2 class="text-2xl font-bold text-left text-primary uppercase py-4">objetivo</h2>
         <h3 class="text-xl font-light text-left">La consultoría tiene como objetivo realizar el diseño, desarrollo,
