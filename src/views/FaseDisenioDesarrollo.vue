@@ -1,33 +1,58 @@
 <template>
     <div class="container mx-auto px-10 py-8 rounded-3xl bg-slate-50">
-        <TitleComponent text="TÉRMINOS DE REFERENCIA" text1="Fase de Inicio / Términos de Referencia" />
+        <TitleComponent text="Tabla Comparativa" text1="Fase de Diseño / Tabla Comparativa" />
+        <h3 class="text-4xl text-center mt-4">Herramientas de Diseño</h3>
+        <img src="../assets/tabla2.png" alt="Tabla Comparativa" class="mx-auto mt-4" />
+        <h3 class="text-4xl text-center mt-4">Herramientas de Planificación</h3>
+        <img src="../assets/tabla3.png" alt="Tabla Comparativa" class="mx-auto mt-4 mb-8" />
+        <TitleComponent text="MOCKUPS" text1="Fase de Diseño / Mockups" />
+        <h3 class="text-4xl text-center mt-4">INICIO</h3>
+        <img src="../assets/iniciop1.png" alt="Mockup Inicio" class="mx-auto mt-4" />
+        <img src="../assets/iniciop2.png" alt="Mockup Inicio" class="mx-auto" />
+        <img src="../assets/iniciop3.png" alt="Mockup Inicio" class="mx-auto" />
+        <h3 class="text-4xl text-center mt-4">QUIENES SOMOS</h3>
+        <img src="../assets/about-usp1.png" alt="Mockup Quienes Somos" class="mx-auto mt-4" />
+        <img src="../assets/about-usp2.png" alt="Mockup Quienes Somos" class="mx-auto" />
+        <img src="../assets/about-usp3.png" alt="Mockup Quienes Somos" class="mx-auto" />
+        <h3 class="text-4xl text-center mt-4">QUIENES SOMOS / HISTORIA</h3>
+        <img src="../assets/about-usp4.png" alt="Mockup Historia" class="mx-auto mt-4" />
+        <img src="../assets/about-usp5.png" alt="Mockup Historia" class="mx-auto" />
+        <h3 class="text-4xl text-center mt-4">QUIENES SOMOS / ESTRUCTURA ORGANICA</h3>
+        <img src="../assets/about-usp6.png" alt="Mockup Estructura Organica" class="mx-auto mt-4" />
+        <img src="../assets/about-usp7.png" alt="Mockup Estructura Organica" class="mx-auto" />
+        <h3 class="text-4xl text-center mt-4">QUIENES SOMOS / DIRECTIVA NACIONAL</h3>
+        <img src="../assets/about-usp8.png" alt="Mockup Directiva Nacional" class="mx-auto mt-4" />
+        <img src="../assets/about-usp9.png" alt="Mockup Directiva Nacional" class="mx-auto" />
+        <h3 class="text-4xl text-center mt-4">QUIENES SOMOS / EQUIPO TÉCNICO Y ADMINISTRATIVO</h3>
+        <img src="../assets/about-usp10.png" alt="Mockup Equipo Tecnico y Administrativo" class="mx-auto mt-4" />
+        <img src="../assets/about-usp11.png" alt="Mockup Equipo Tecnico y Administrativo" class="mx-auto" />
+        <h3 class="text-4xl text-center mt-4">LINEA ESTRATÉGICA</h3>
+        <img src="../assets/linea-estrategicap1.png" alt="Mockup Linea Estrategica" class="mx-auto mt-4" />
+        <img src="../assets/linea-estrategicap2.png" alt="Mockup Linea Estrategica" class="mx-auto" />
+        <h3 class="text-4xl text-center mt-4">PROYECTOS EJECUTADOS</h3>
+        <img src="../assets/proyectosp1.png" alt="Mockup Proyectos Ejecutados" class="mx-auto mt-4" />
+        <img src="../assets/proyectosp2.png" alt="Mockup Proyectos Ejecutados" class="mx-auto" />
+        <h3 class="text-4xl text-center mt-4">PROYECTOS EN EJECUCIÓN</h3>
+        <img src="../assets/proyectosp3.png" alt="Mockup Proyectos en Ejecucion" class="mx-auto mt-4" />
+        <img src="../assets/proyectosp4.png" alt="Mockup Proyectos en Ejecucion" class="mx-auto" />
+        <h3 class="text-4xl text-center mt-4">LOGROS INSTITUCIONALES</h3>
+        <img src="../assets/proyectosp5.png" alt="Mockup Logros Institucionales" class="mx-auto mt-4" />
+        <img src="../assets/proyectosp6.png" alt="Mockup Logros Institucionales" class="mx-auto" />
+        <h3 class="text-4xl text-center mt-4">CONTACTOS</h3>
+        <img src="../assets/contacto.png" alt="Mockup Contactos" class="mx-auto mt-4" />
+        <h3 class="text-4xl text-center mt-4">LIBROS</h3>
+        <img src="../assets/librosp1.png" alt="Mockup Libros" class="mx-auto mt-4" />
+        <img src="../assets/librosp2.png" alt="Mockup Libros" class="mx-auto" />
+        <h3 class="text-4xl text-center mt-4">BOLETIONES</h3>
+        <img src="../assets/boletinesp1.png" alt="Mockup Boletines" class="mx-auto mt-4" />
+        <h3 class="text-4xl text-center mt-4">TRIPTICOS</h3>
+        <img src="../assets/tripticosp1.png" alt="Mockup Tripticos" class="mx-auto mt-4" />
+        <h3 class="text-4xl text-center mt-4">DECRETOS</h3>
+        <img src="../assets/decretosp1.png" alt="Mockup Decretos" class="mx-auto mt-4" />
+        <h3 class="text-4xl text-center mt-4">CONVENCIONES Y DECLARACIONES</h3>
+        <img src="../assets/convencionesp1.png" alt="Mockup Convenciones y Declaraciones" class="mx-auto mt-4" />
 
-        <h2 class="text-2xl font-bold text-left text-primary uppercase py-4">Antecedentes y Justificación</h2>
-        <h3 class="text-xl font-light text-left">La Asociación de Concejalas y Alcaldesas de Bolivia (ACOBOL)
-            es una entidad nacional sin fines de lucro, fundada en 1999, que forma parte del Sistema
-            Asociativo Municipal (SAM). Conformada por nueve Asociaciones Departamentales, ACOBOL tiene como
-            objetivo principal promover y posicionar políticamente a las mujeres en el ámbito municipal.
-            Esta entidad representa a sus asociadas, alcaldesas y concejalas, en la defensa de sus derechos
-            e intereses, sin discriminación de raza, cultura, etnia o instrucción. ACOBOL trabaja en
-            fortalecer la gestión hacia la equidad y el desarrollo humano sostenible, respaldando a sus
-            miembros para lograr una participación política equitativa, empoderando a las mujeres y fomentando
-            la incorporación de la perspectiva de género en la planificación y desarrollo municipal, con el fin
-            de contribuir a la construcción de una sociedad equitativa entre hombres y mujeres.
-        </h3>
-        <h2 class="text-2xl font-bold text-left text-primary uppercase py-4">objetivo</h2>
-        <h3 class="text-xl font-light text-left">La consultoría tiene como objetivo realizar el diseño, desarrollo,
-            pruebas, mantenimiento y despliegue de una nueva página web para la Asociación de Concejalas y Alcaldesas
-            de Bolivia (ACOBOL).
-        </h3>
 
-        <TitleComponent text="PLAN DE INICIO - ACOBOL" text1="Fase de Inicio / Plan de inicio" />
-
-        <p class="text-xl text-center mt-6">
-            Esta es una página de información sobre nuestra aplicación y equipo.
-        </p>
-        <p class="text-center mt-4">
-            Aquí puedes agregar más información acerca de los valores, misión y visión de tu proyecto o empresa.
-        </p>
     </div>
 </template>
   
