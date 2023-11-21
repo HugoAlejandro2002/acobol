@@ -1,35 +1,49 @@
 <template>
     <div class="container mx-auto px-10 py-8 rounded-3xl bg-slate-50">
-        <TitleComponent text="TÉRMINOS DE REFERENCIA" text1="Fase de Inicio / Términos de Referencia" />
 
-        <h2 class="text-2xl font-bold text-left text-primary uppercase py-4">Antecedentes y Justificación</h2>
-        <h3 class="text-xl font-light text-left">La Asociación de Concejalas y Alcaldesas de Bolivia (ACOBOL)
-            es una entidad nacional sin fines de lucro, fundada en 1999, que forma parte del Sistema
-            Asociativo Municipal (SAM). Conformada por nueve Asociaciones Departamentales, ACOBOL tiene como
-            objetivo principal promover y posicionar políticamente a las mujeres en el ámbito municipal.
-            Esta entidad representa a sus asociadas, alcaldesas y concejalas, en la defensa de sus derechos
-            e intereses, sin discriminación de raza, cultura, etnia o instrucción. ACOBOL trabaja en
-            fortalecer la gestión hacia la equidad y el desarrollo humano sostenible, respaldando a sus
-            miembros para lograr una participación política equitativa, empoderando a las mujeres y fomentando
-            la incorporación de la perspectiva de género en la planificación y desarrollo municipal, con el fin
-            de contribuir a la construcción de una sociedad equitativa entre hombres y mujeres.
-        </h3>
-        <h2 class="text-2xl font-bold text-left text-primary uppercase py-4">objetivo</h2>
-        <h3 class="text-xl font-light text-left">La consultoría tiene como objetivo realizar el diseño, desarrollo,
-            pruebas, mantenimiento y despliegue de una nueva página web para la Asociación de Concejalas y Alcaldesas
-            de Bolivia (ACOBOL).
-        </h3>
+        <!-- Sección de Manuales -->
+        <TitleComponent text="MANUALES" text1="Fase de Cierre / Manuales" />
+        <div class="py-4">
+            <h3 class="text-xl font-light">Manual de Usuario</h3>
+            <ul class="list-disc pl-6 text-xl font-light py-4">
+                <li>Objetivo: Instruir al cliente sobre la arquitectura del sistema, funcionalidades de la página web,
+                    seguridad, mantenimiento, actualización y soporte técnico.</li>
+                <li>Funcionalidades del Sistema: Detalles de las secciones como Página de Inicio, Quiénes Somos, Líneas
+                    Estratégicas, Proyectos, Publicaciones y Contactos.</li>
+                <li>Arquitectura del Sistema: Uso de Vue.js para el front-end, Express.js para el back-end, y MySQL para la
+                    base de datos.</li>
+                <li>Seguridad del Sistema: Protección contra ataques y estrategias de seguridad implementadas.</li>
+            </ul>
+            <h3 class="text-xl font-light">Mantenimiento del Sistema</h3>
+            <ul class="list-disc pl-6 text-xl font-light py-4">
+                <li>Revisión y actualización regular de la infraestructura de TI cada tres meses.</li>
+                <li>Incluye revisión de hardware y software, análisis de seguridad, rendimiento y planificación de mejoras
+                    futuras.</li>
+            </ul>
+            <a href="https://docs.google.com/document/d/1NRZeFOgupcZP_-8eqn74uzVkhmaFFzOMN9FYUNVoLk0/edit" 
+               class="text-primary underline hover:text-secondary">
+                Ver Manuales
+            </a>
+        </div>
 
-        <TitleComponent text="PLAN DE INICIO - ACOBOL" text1="Fase de Inicio / Plan de inicio" />
-
-        <p class="text-xl text-center mt-6">
-            Esta es una página de información sobre nuestra aplicación y equipo.
-        </p>
-        <p class="text-center mt-4">
-            Aquí puedes agregar más información acerca de los valores, misión y visión de tu proyecto o empresa.
-        </p>
+        <!-- Sección de Carta de Entrega de Producto -->
+        <TitleComponent text="CARTA DE ENTREGA DEL PRODUCTO" text1="Fase de Cierre / Carta de Entrega de Producto" />
+        <div class="py-4">
+            <h3 class="text-xl font-light">Carta de Entrega del Producto - Acobol</h3>
+            <p class="text-xl font-light py-4">
+                Formalización de la entrega del sistema de la página web de ACOBOL, incluyendo software, documentación y
+                equipos informáticos. El sistema está operativo en el dominio www.acobol.org.bo, cumpliendo con los
+                requisitos y objetivos establecidos. Ofrecemos un período de tres meses de soporte y mantenimiento
+                post-entrega.
+            </p>
+            <a href="https://docs.google.com/document/d/1-zX1I_5QZp_A7n7_gGCH_-ez67XgTnobZCj0u2ONCDM/edit" 
+               class="text-primary underline hover:text-secondary">
+                Ver Carta de Entrega
+            </a>
+        </div>
     </div>
 </template>
+
   
 <script>
 import TitleComponent from '../components/TittleComponent.vue'; // Asegúrate de que la ruta sea correcta

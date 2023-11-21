@@ -1,7 +1,6 @@
 <template>
     <div class="container mx-auto px-10 py-8 rounded-3xl bg-slate-50">
         <TitleComponent text="TÉRMINOS DE REFERENCIA" text1="Fase de Inicio / Términos de Referencia" />
-
         <h2 class="text-2xl font-bold text-left text-primary uppercase py-4">Antecedentes y Justificación</h2>
         <h3 class="text-xl font-light text-left">La Asociación de Concejalas y Alcaldesas de Bolivia (ACOBOL)
             es una entidad nacional sin fines de lucro, fundada en 1999, que forma parte del Sistema
